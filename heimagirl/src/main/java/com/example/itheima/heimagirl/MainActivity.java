@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         //同步
         /*try {
             Response response = okHttpClient.newCall(request).execute();
-
         } catch (Exception e) {
             e.printStackTrace();
         }*/
@@ -33,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             okHttpClient.newCall(request).enqueue(new Callback() {
                 @Override
                 public void onFailure(okhttp3.Call call, IOException e) {
-
+                    
                 }
 
                 @Override
