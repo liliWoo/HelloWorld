@@ -189,7 +189,7 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 holder = (ViewHolder) convertView.getTag();
             }
-
+  
             ResultBean.ResultsBean resultsBean = mlist.get(position);
             holder.tvTime.setText(resultsBean.getPublishedAt());
 
